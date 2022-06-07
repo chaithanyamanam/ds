@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main()
+{
+    int sum,sum1,a,b;
+ printf("enter the elements");
+ scanf("%d%d",&a,&b);
+ if(a!=b)
+ {
+ sum=a+b;
+ printf("%d",sum);
+ }
+ else if(a==b)
+ {
+ sum1=(a+b)*3;
+    printf("%d",sum1);
+}
+}
+
+pseudocode:
+BEGIN
+input the first and second number
+if 
+a and b values are same
+add two numbers and multiple the sum triple
+output the sum1 value
+else
+add two numbers
+output the sum1 value
+END
